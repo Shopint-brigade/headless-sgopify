@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function ProductOptions({ name , values , selectedOptions, setOptions}) {
     return (
-        <fieldset>
+        <fieldset className="mt-3">
             <legend className='text-xl font-semibold'>
                 {name}
             </legend>
@@ -24,7 +24,7 @@ export default function ProductOptions({ name , values , selectedOptions, setOpt
                                         setOptions(name, value)
                                        }}
                                         />
-                                        <div className={`p-2 my-3 text-lg rounded-full block cursor-pointer mr-3 
+                                        <div className={`p-2 mt-3 text-lg rounded-full block cursor-pointer mr-3 
                                         ${checked? "text-white bg-gray-900 " : "text-gray bg-gray-200"}`}>
                                             <span className='px-2 '>
                                                 {value}
