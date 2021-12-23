@@ -1,8 +1,8 @@
 const navigation =[
-    {  name: 'Shop', href: "#"  },
-    {  name: 'Terms', href: "#"  },
-    {  name: 'Blog', href: "#"  },
-    {  name: 'About', href: "#" }
+    {  name: 'Shop', href: "/"  },
+    {  name: 'Terms', href: "/terms"  },
+    {  name: 'Blog', href: "/blog"  },
+    {  name: 'About', href: "/about" }
 ]
 
 export default function Footer() {
