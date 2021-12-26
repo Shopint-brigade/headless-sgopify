@@ -6,7 +6,7 @@ export default function ArticlePageContent({article}) {
     return (
         <> 
             <div className='max-w-xl m-auto block mt-10 mb-0'>
-             <a href='/'>Home</a> <span> > </span> <a href='/blog'>Blog</a>
+             <a href='/'>Home</a> <span> / </span> <a href='/blog'>Blog</a>
             </div>
             
             <div className='relative max-w-xl h-96 m-auto '>
