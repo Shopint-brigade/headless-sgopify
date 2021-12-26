@@ -20,7 +20,7 @@ export default function Footer() {
                   ))  
                 }   
                 </nav> 
-                <p className='mt-8 text-center text-gray-400'>&copy; 2021 829-llc all rights reserved. </p>
+                <p className='mt-8 text-center text-gray-800'>&copy; 2021 829-llc all rights reserved. </p>
             </div>
         </footer>
     )

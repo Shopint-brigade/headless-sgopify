@@ -10,8 +10,6 @@ export default function Home( {articles} ) {
   <div>
       <Head>
         <title>829 Blog Page </title>
-        <meta http-equiv="Content-Type" content="text/html" charset="utf-8" />
-        <meta http-equiv="Content-Type" content="text/html" charset="ISO-8859-1"/>
         <meta name="description" content= "Blog page - Modern headless ecomm solution focusing on Shopify , Next.js , TailwindCss , GraphQL uses storefront API , static site generation , getStaticPaths , GetStaticProps and more." />
         <meta property="og:title" content="829 Headless Shopify store wireframe blog page " />
         <meta property="og:type" content="website" />

@@ -18,8 +18,8 @@ const ProductList = ({products}) => {
                     Products
                 </h2>
                 <div className="relative right-0 text-right bottom-3.4rem block">
-                    <span className="inline-block mr-1 hover:text-gray-400 cursor-pointer" onClick={() => scroll(-800)}>prev</span>
-                    <span className="inline-block ml-1 hover:text-gray-400 cursor-pointer" onClick={() => scroll(+800)}>next</span>
+                    <span className="inline-block mr-1 hover:text-gray-400 cursor-pointer" onClick={() => scroll(-2000)}>prev</span>
+                    <span className="inline-block ml-1 hover:text-gray-400 cursor-pointer" onClick={() => scroll(+2000)}>next</span>
                 </div>
                 
                 <div className='flex flex-nowrap overflow-x-hidden product-container' ref={ref} >
